@@ -1,0 +1,85 @@
+{
+	"title": "Aplicación transaccional de BancAndes Uniandes",
+	"frameH": 600,
+	"frameW": 800,
+	"bannerPath": "./src/main/resources/config/logo.png",
+	"menuBar":
+	[
+		{ "menuTitle": "Usuario",
+		  "options":
+			[
+				{
+					"label": "Registrar usuario",
+					"event": "registrarUsuario"
+				},
+				{
+					"label": "Consultar un cliente",
+					"event": ""
+				},
+				{
+					"label": "Obtener los datos del usuario más activo",
+					"event": ""
+				}
+			]
+		},
+		{ "menuTitle": "Cuenta",
+		  "options":
+			[
+				{
+					"label": "Registrar cuenta",
+					"event": ""
+				},
+				{
+					"label": "Registrar operación sobre cuenta",
+					"event": ""
+				},
+				{
+					"label": "Cerrar cuenta",
+					"event": ""
+				},
+				{
+					"label": "Consultar las cuentas",
+					"event": ""
+				},
+				{
+					"label": "Consultar las 10 operaciones de mayor movimiento en el sistema, en un rango de fechas",
+					"event": ""
+				}
+			]
+		},			
+		{ "menuTitle": "Préstamo",
+		  "options":
+			[
+				{
+					"label": "Registrar préstamo",
+					"event": ""
+				},
+				{
+					"label": "Registrar operación sobre préstamo",
+					"event": ""
+				},
+	
+				{
+					"label": "Cerrar préstamo",
+					"event": ""
+				},
+			]
+		},
+		
+		{ "menuTitle": "Punto de atención",
+		  "options":
+			[
+				{
+					"label": "Registrar punto de atención",
+					"event": ""
+				},
+				{
+					"label": "Registrar oficina",
+					"event": ""
+				}
+			]
+		}			
+		
+	]
+}
+	
